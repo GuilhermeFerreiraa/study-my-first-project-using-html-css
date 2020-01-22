@@ -1,0 +1,23 @@
+body{
+margin:0px;
+padding: 0px;
+}
+.menu-principal{
+	width: 100%;
+	background-color: #99bbff;
+	height: 60px;
+}
+.logo{
+	float: left;
+    width: 125px;
+    height: 58px;
+    padding: 1px;
+}
+main{
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+}
+.header-2{
+	
+}
