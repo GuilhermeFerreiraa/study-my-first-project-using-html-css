@@ -1,6 +1,12 @@
 body{
 margin:0px;
 padding: 0px;
+background-image: url("../img/fundo.jpg");
+background-repeat: no-repeat;
+}
+ul{
+
+	padding: 0px!important;
 }
 .menu-principal{
 	width: 100%;
@@ -19,9 +25,14 @@ main{
 	position: relative;
 }
 .header-2{
-	background-color: #ffffff;
-	width: 100%;
-	border-bottom: 3px solid #efefef;
+	width: 980px;
+	margin:0 auto;
+	padding: 16px;
+	
+}
+.menu-urls{
+border-bottom: 3px solid #efefef;
+height: 80px;
 }
 .menu ul li{
 	display: inline-block;
@@ -29,7 +40,7 @@ main{
 	margin-left: 15px;
 }
 .menu ul li a{
-	color: #8b8b8b;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -39,6 +50,22 @@ main{
 	float: left;
 }
 .busca{
+	text-align: center;
 	width: 30%;
 	float: right;
+}
+.busca input{
+	background-image: url("../img/lupa.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position:right;
+	height: 36px;
+	padding: 2px;
+	width: 190px;
+	margin-top:4px; 
+}
+.col-100{
+	width: 100%;
+	float: left;
+	position: relative;
 }
