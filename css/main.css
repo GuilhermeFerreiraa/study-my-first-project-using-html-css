@@ -38,21 +38,23 @@ height: 80px;
 	display: inline-block;
 	color: #8b8b8b;
 	margin-left: 15px;
+	height: 50px;
+}
+.menu ul li:hover{
+	border-bottom: 4px solid #00BAC6;
 }
 .menu ul li a:hover {
-	color: #00bac6;
-	border-bottom: 1px solid #00bac6;
+	color: #00BAC6;
 }
 .menu ul li a{
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
 }
 .menu{
-	width: 50%;
+	width: 70%;
 	float: left;
-	margin-left: 170px;
 }
 .busca{
 	text-align: center;
@@ -67,10 +69,11 @@ height: 80px;
 	padding: 2px;
 	width: 190px;
 	margin-top:4px; 
-	border:1px solid #d6d6d6;
+	border:1px solid #00BAC6;
 }
 .col-100{
 	width: 100%;
 	float: left;
 	position: relative;
+	background-color: #287393;
 }
