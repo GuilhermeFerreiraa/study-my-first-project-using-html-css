@@ -12,6 +12,7 @@ ul{
 .logo{
 	float: left;
     width: auto;
+    margin-left: 61px;	
     height: 100%;
     padding: 1px;
     position: absolute;
@@ -115,12 +116,12 @@ button.slick-next{
 	background: transparent;
 	cursor: pointer;
 }
-.stick-dots{
+.slick-dots{
 	margin:0 auto;
 	width: 50%;
 	position: absolute;
 	left: 50%;
-	top: 600px;
+	bottom: 10px;
 }
 li.slick-active button {
 	background: #00bac6;
