@@ -9,15 +9,10 @@ ul{
 
 	padding: 0px!important;
 }
-.menu-principal{
-	width: 100%;
-	background-color: #99bbff;
-	height: 60px;
-}
 .logo{
 	float: left;
-    width: 250px;
-    height: 61px;
+    width: 150px;
+    height: 150px;
     padding: 1px;
     position: absolute;
 }
@@ -35,6 +30,7 @@ main{
 .menu-urls{
 border-bottom: 3px solid #efefef;
 height: 80px;
+position: absolute;
 }
 .menu ul li{
 	display: inline-block;
@@ -43,7 +39,7 @@ height: 80px;
 	height: 50px;
 }
 .menu ul li:hover{
-	border-bottom: 8px solid #00BAC6;
+	border-bottom: 10px solid #00BAC6;
 }
 .menu ul li a:hover {
 	color: #00BAC6;
@@ -72,8 +68,6 @@ height: 80px;
 	width: 190px;
 	margin-top:4px; 
 	border:1px solid #00BAC6;
-	font-family: 'Fredoka One', cursive;
-	color: black;
 }
 .col-100{
 	width: 100%;
@@ -84,25 +78,24 @@ height: 80px;
 button.slick-prev{
 	font-size: 0px;
 	border:none;
-	width: 25px;
-	height: 51px;
+	width: 72px;
+	height: 72px;
+	z-index: 9;
 	background-color: transparent;
 	position: absolute;
 	background-image: url('../img/seta.png');
 	top: 35%;
-	left: 0;
+	left: 0; 
 }
 button.slick-next{
 	font-size: 0px;
 	border:none;
-	width: 25px;
-	height: 51px;
+	width: 72px;
+	height: 72px;
+	z-index: 9;
 	background-color: transparent;
 	position: absolute;
 	background-image: url('../img/seta1.png');
 	top: 35%;
-	right: 0;
-}
-.slider-principal{
-	margin-top: 5px;
+	right: 0; 
 }
