@@ -85,8 +85,8 @@ button.slick-prev{
 	background-color: transparent;
 	position: absolute;
 	background-image: url('../img/seta.png');
-	top: 35%;
-	left: 0; 
+	top: 40%;
+	left: 100px; 
 }
 button.slick-next{
 	font-size: 0px;
@@ -97,8 +97,8 @@ button.slick-next{
 	background-color: transparent;
 	position: absolute;
 	background-image: url('../img/seta1.png');
-	top: 35%;
-	right: 0; 
+	top: 40%;
+	right: 100px; 
 }
 .slick-list{
 	width: 100%!important;
@@ -120,7 +120,7 @@ button.slick-next{
 	margin:0 auto;
 	width: 50%;
 	position: absolute;
-	left: 50%;
+	left: 48%;
 	bottom: 10px;
 }
 li.slick-active button {
