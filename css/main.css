@@ -1,4 +1,5 @@
 body{
+font-family: 'Fredoka One', cursive;
 margin:0px;
 padding: 0px;
 background-image: url("../img/fundo.png");
@@ -15,9 +16,10 @@ ul{
 }
 .logo{
 	float: left;
-    width: 125px;
-    height: 58px;
+    width: 250px;
+    height: 61px;
     padding: 1px;
+    position: absolute;
 }
 main{
 	margin: 0 auto;
@@ -41,7 +43,7 @@ height: 80px;
 	height: 50px;
 }
 .menu ul li:hover{
-	border-bottom: 4px solid #00BAC6;
+	border-bottom: 8px solid #00BAC6;
 }
 .menu ul li a:hover {
 	color: #00BAC6;
@@ -70,10 +72,37 @@ height: 80px;
 	width: 190px;
 	margin-top:4px; 
 	border:1px solid #00BAC6;
+	font-family: 'Fredoka One', cursive;
+	color: black;
 }
 .col-100{
 	width: 100%;
 	float: left;
 	position: relative;
 	background-color: #287393;
+}
+button.slick-prev{
+	font-size: 0px;
+	border:none;
+	width: 25px;
+	height: 51px;
+	background-color: transparent;
+	position: absolute;
+	background-image: url('../img/seta.png');
+	top: 35%;
+	left: 0;
+}
+button.slick-next{
+	font-size: 0px;
+	border:none;
+	width: 25px;
+	height: 51px;
+	background-color: transparent;
+	position: absolute;
+	background-image: url('../img/seta1.png');
+	top: 35%;
+	right: 0;
+}
+.slider-principal{
+	margin-top: 5px;
 }
