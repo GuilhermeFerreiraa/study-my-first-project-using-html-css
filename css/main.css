@@ -11,8 +11,8 @@ ul{
 }
 .logo{
 	float: left;
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 100%;
     padding: 1px;
     position: absolute;
 }
@@ -45,7 +45,7 @@ position: absolute;
 	color: #00BAC6;
 }
 .menu ul li a{
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -99,16 +99,34 @@ button.slick-next{
 	top: 35%;
 	right: 0; 
 }
-.slick-dots li{
+.slick-list{
+	width: 100%!important;
+}
+.slick-initialized{
+	overflow: hidden;
+}
+
+.slick-dots li button {
 	font-size: 0px;
-	border:none;
+	border: 1px solid #ffffff;
 	width: 15px;
 	height: 15px;
-	z-index: 9;
-	background-color: transparent;
+	border-radius: 50%;
+	background: transparent;
+	cursor: pointer;
+}
+.stick-dots{
+	margin:0 auto;
+	width: 50%;
 	position: absolute;
-	background-image: url('../img/btn_inativo.png');
-	top: 50%;
-	 
-}	
+	left: 50%;
+	top: 600px;
+}
+li.slick-active button {
+	background: #00bac6;
+}
+.slick-dots li {
+	padding-left: 10px;
+	display: inline-block; 
+
 }
