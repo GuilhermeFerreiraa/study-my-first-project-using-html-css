@@ -1,10 +1,9 @@
 $('.slider-principal').slick({
-	dots:true,
-	infinite: true,
-	speed: 300,
-	slidesToShow: 1,
-	adaptiveHeight: true,
-	autoplay: true,
-	autoplayspeed:1000,
-
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000
 });
