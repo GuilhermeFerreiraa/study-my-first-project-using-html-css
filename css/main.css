@@ -184,14 +184,21 @@ li.slick-active button {
 }
 .bloco-texto {
     margin-top: 3em;
+    background-color:transparent;
 }
-
+.bloco-texto1 {
+    margin-top: 3em;
+    background-color: #727272;
+}
 h3 {
     font-weight: normal!important;
 }
 
 .bloco-imagens-texto {
-    background-color: #eeeeee;
+    
+    background-image: url(../img/fundoo.png);
+    background-repeat:no-repeat;
+    background-position:center;
 }
 .bloco-imagens-texto:before {
     width: 100%;
@@ -200,7 +207,7 @@ h3 {
     height: 52px;
     background-repeat: no-repeat;
     background-position: transparent;
-    background-image:url('../img/fundo1.png'); 
+    background-image:url('../img/fundoo.png'); 
 }
 .bloco-imagens-texto:after {
     width: 100%;
