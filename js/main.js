@@ -7,3 +7,10 @@ $('.slider-principal').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+
+$('#content-2').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
