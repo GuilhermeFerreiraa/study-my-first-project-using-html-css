@@ -11,6 +11,9 @@ $('.slider-principal').slick({
 $('#content-2').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
+  adaptiveHeight: true,
   autoplay: true,
-  autoplaySpeed: 2000,
+  infinite: true,
+  autoplaySpeed: 3000,
+  dots: true,
 });
