@@ -1,3 +1,7 @@
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
 $('.slider-principal').slick({
     dots: true,
     infinite: true,

@@ -13,14 +13,24 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Tom Clancy's Rainbow Six Siege BR</title>
 
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+<!-- COLOQUE A DIV "loading" ACIMA DE TODO O CONTEUDO DO SITE (ABAIXO DA <body>) -->
     
     <header class="menu-principal">
-    
+    	
+    	<div class="container" onclick="myFunction(this)">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+		</div>
+    		
         <main>
     
             <div class="header-1">
@@ -32,7 +42,7 @@
                    	<img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5MK7X302z5WFxp5EarddHr/8a112c813d033e7a918bd5032a80c854/r6-logo.png" />
                     
                     </a>
-                
+               
                 </div>
                 
                 <div class="ubi">
@@ -57,31 +67,31 @@
     
                     <li>
                    
-                        <a href="" style="font-family:'Anton';">INÍCIO</a>
+                        <a href="index.html" style="font-family:'Anton';">INÍCIO</a>
                    
                     </li>
                    
                     <li>
                    
-                        <a href="" style="font-family:'Anton';">MAPAS</a>
+                        <a href="index.html" style="font-family:'Anton';">MAPAS</a>
                    
                     </li>
                    
                     <li>
                    
-                   <a href="" style="font-family:'Anton';">AGENTES</a>
+                   <a href="index.html" style="font-family:'Anton';">AGENTES</a>
                    
                     </li>
                    
                     <li>
                    
-                        <a href="" style="font-family:'Anton';">TEMPORADA</a>
+                        <a href="index.html" style="font-family:'Anton';">TEMPORADA</a>
                    
                     </li>
                    
                     <li>
                    
-                        <a href="" style="font-family:'Anton';">COMPRAR</a>
+                        <a href="index.html" style="font-family:'Anton';">COMPRAR</a>
                    
                     </li>
                 
@@ -120,20 +130,17 @@
     <div class="col-100">
 
         <div class="content texto-destaque">
-            		<a class='texto' style="text-align:center;font-size:20px;">
+            		<div class="p-1">
 
             <h1>Conheça agora os <strong>OPERADORES MAIS USADOS</strong> de 2019.</h1>
 
-          	</a>
-
             <p>
-            		<a class='texto' style="text-align:center;font-size:20px; ">
         
             Com o começo da Season 8 da Pro League, veja quais operadores conquistaram a preferência dos atletas na temporada anterior
         
-        	</a></p>
+        </p>
 
-            <h2>  DEFENSORES <img src="./img/def.png"></h2>
+            <h2 id="def">  DEFENSORES <img src="./img/def.png"></h2>
 
             <div class="col-3 bloco-texto">
             
@@ -270,6 +277,14 @@
         </div>
     
     </div>
+   <div class="container">
+  <img src="hibana1.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <a href="#" class="icon" title="User Profile">
+      <i class="fa fa-user"></i>
+    </a>
+  </div>
+</div>
 
     					                                         <!--  LOADOUT SMOKE  -->
 
@@ -590,7 +605,7 @@
     <script type="text/javascript" src="./js/slick.min.js"></script>
     
     <script type="text/javascript" src="./js/main.js"></script>
-
+    </div>
 </body>
 
 </html>
