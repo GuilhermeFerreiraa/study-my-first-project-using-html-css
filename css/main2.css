@@ -748,4 +748,585 @@ body{
   .fa-user:before{
     content: none;
   }
-  
+  .kali {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-kali_358315.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .kali {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+   .wamai {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("../img/wamai.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .wamai {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .zofia {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-zofia_306733.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .zofia {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .ela {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-ela_301980.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .ela {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .vigil {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://vignette.wikia.nocookie.net/rainbowsix/images/4/41/Vigil_-_Full_Body.png/revision/latest/top-crop/width/360/height/360?cb=20180110053507");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .vigil {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ 
+.dokka {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("../img/dokka.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .dokka {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .jackal {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-jackal_286950.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .jackal {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .mira {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-mira_286949.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .mira {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+ .capitao {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege/r6-operator-capitao_263015.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .capitao {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.caveira {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://i.pinimg.com/originals/5d/75/c7/5d75c7cf9e42a754244fe3933b6070e2.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .caveira {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .maestro {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-maestro_324452.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .maestro {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .alibi {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-alibi_324451.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .alibi {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.lion {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-lion.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .lion {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+
+.finka {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://i.pinimg.com/originals/cb/03/c4/cb03c418e7841c3e7b2001abddeb8115.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .finka {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .lesion {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("https://ubistatic19-a.akamaihd.net/resource/pt-br/game/rainbow6/siege-v3/r6-operator-lesion_301941.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .lesion {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .ying {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("../img/ying.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .ying {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
+  .mute {
+  position: absolute;
+  top: 28px;
+  bottom: 0;
+  left: 36px;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .3s ease;
+  background-position: center ;
+  background-image:url("../img/mute.png");
+  background-repeat: no-repeat;
+  background-size:327px;
+  }
+  .container:hover .mute {
+  opacity: 1;
+  }
+  .icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .fa-user:hover {
+  color: #eee; 
+  }
+  .fa-user:before{
+    content: none;
+  }
