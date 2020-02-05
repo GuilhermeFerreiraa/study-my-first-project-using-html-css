@@ -209,6 +209,7 @@ h3 {
     width: 100%;
     display: inline-block;
     content: '';
+    height: 52px;
     background-repeat: no-repeat;
     background-position: transparent;
     background-image:url('../img/fundoo.png'); 

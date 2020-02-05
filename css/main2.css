@@ -1976,14 +1976,6 @@ body{
   .fa-user:before{
     content: none;
   }
-  .bloco-imagens-texto:{
-    width: 100%;
-    display: inline-block;
-    content: '';
-    height: 52px;
-    background-repeat: no-repeat;
-    background-position: transparent;
-    background-image:url('../img/fundoo.png');
   }
     .bloco-imagens-texto:after {
     width: 100%;
@@ -1992,8 +1984,7 @@ body{
     height: 70px;
 }
 .col-3 {
-    margin-top: 3%;
-    text-align: center;
+    text-align: left;
     padding-left: 15px;
     padding-right: 15px; 
     width: 30%;
@@ -2001,26 +1992,43 @@ body{
     position: relative;
 }
 .bloco-imagem img {
-    margin: 0 auto;
-    height: auto;
+   width: 400px;
+  height: 0 auto;
+}
 }
 .bloco-imagem {
-    height: 300px;
+    height: auto ;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 10px;
+    
 }
-.bloco-imagem b, p {
-    text-align: left;
+.bloco-imagem p {
+  font-size: 70px;
+  position: absolute;
+  margin-left: 43%;
+  text-align: center;
+  color: white;
+  bottom: 100px;
+  padding:5px;
+  justify-content: space-between;
+}
+.smoke-2{
+  float: right;
+}
+
+
 }
 .bloco-texto {
-    margin-top: 1em;
     background-color:transparent;
 }
-.bloco-texto1 {
-    margin-top: 1em;
-    background-color: #727272;
+.bloco-texto1  {
+    background-repeat: no-repeat;
+    width: 97%;
+    height: auto;
+    align-items: left;
+    background-size: 100%;
+    background-image: url(https://static-dm.akamaized.net/siege/prod/r6s-bg-generic.jpg);
 }
 h3 {
     font-weight: normal!important;
@@ -2039,4 +2047,29 @@ h3 {
   margin-top: 5%;
   position: relative;
   background-color: black;
+} 
+
+
+.myTopnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.myTopnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.myTopnav a:hover {
+  background: #ddd;
+  color: black;
 }
